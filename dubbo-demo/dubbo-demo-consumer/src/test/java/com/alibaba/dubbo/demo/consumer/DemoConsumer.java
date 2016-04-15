@@ -15,10 +15,22 @@
  */
 package com.alibaba.dubbo.demo.consumer;
 
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
 public class DemoConsumer {
 	
 	public static void main(String[] args) {
-	    com.alibaba.dubbo.container.Main.main(args);
+//	    com.alibaba.dubbo.container.Main.main(args);
+		System.out.println("------start------");
+		TestCodeBlock testCodeBlock = new TestCodeBlock();
+		System.out.println("------end------");
+
+
+
+
 	}
 
 }
